@@ -1,0 +1,44 @@
+
+body {
+    margin: 100px;
+}
+
+.out {
+    display: inline-block;
+    line-height: 0;
+    box-shadow: 10px 5px 5px black;
+    max-width: max-content§;
+}
+
+.squar { 
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.spot {
+    background: rgb(241, 233, 231);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.spot:hover {
+    border: 7px solid black;
+    transition: 0.5s;
+}
+
+.cross{
+   background: rgb(212, 127, 65);
+   background-image: url('../images/cross.png');
+   background-size: 100%;
+
+}
+
+.zero {
+    background: rgb(82, 82, 216);
+    background-image: url('../images/zero.png');
+    background-size: 100%;
+}
