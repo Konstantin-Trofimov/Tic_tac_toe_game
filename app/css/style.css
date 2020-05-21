@@ -7,7 +7,7 @@ body {
     display: inline-block;
     line-height: 0;
     box-shadow: 10px 5px 5px black;
-    max-width: max-content§;
+    max-width: max-content;
 }
 
 .squar { 
@@ -31,14 +31,14 @@ body {
 }
 
 .cross{
-   background: rgb(212, 127, 65);
+   background: rgb(226, 167, 125);
    background-image: url('../images/cross.png');
    background-size: 100%;
 
 }
 
 .zero {
-    background: rgb(82, 82, 216);
+    background: rgb(125, 125, 209);
     background-image: url('../images/zero.png');
     background-size: 100%;
 }
